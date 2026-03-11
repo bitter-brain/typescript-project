@@ -1,7 +1,7 @@
 type Props = {
-  message: string;
-};
+  message: string
+}
 
 export const ErrorMessage = ({ message }: Props) => {
-  return <p className="error">{message}</p>;
-};
+  return <p className="error">{message}</p>
+}

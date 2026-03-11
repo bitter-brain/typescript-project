@@ -1,18 +1,18 @@
-import { useState } from "react";
-import type { Repo } from "../model/userTypes";
+import { useState } from 'react'
+import type { Repo } from '../model/userTypes'
 
 type Props = {
   repos: Repo[];
-};
+}
 
 export const RepoList = ({ repos }: Props) => {
-  const [sort, setSort] = useState<"stars" | "name">("stars");
+  const [sort, setSort] = useState<"stars" | "name">("stars")
 
   const sorted = [...repos].sort((a, b) =>
     sort === "stars"
       ? b.stargazers_count - a.stargazers_count
       : a.name.localeCompare(b.name)
-  );
+  )
 
   return (
     <div className="repo-list">
@@ -33,5 +33,5 @@ export const RepoList = ({ repos }: Props) => {
         </div>
       ))}
     </div>
-  );
-};
+  )
+}

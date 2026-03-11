@@ -1,4 +1,4 @@
-import type { User } from "../model/userTypes"
+import type { User } from '../model/userTypes'
 
 type Props = {
   user: User
