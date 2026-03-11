@@ -23,4 +23,5 @@ GitHub User Explorer is a small frontend application that allows users to search
 - Clean and scalable project architecture
 
 ##
-https://vercel.com/bitter-brains-projects/github-user-explorer
+
+https://github-user-explorer-seven.vercel.app/
