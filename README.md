@@ -17,11 +17,9 @@ GitHub User Explorer is a small frontend application that allows users to search
 
 ## Features
 
-- Search for GitHub users by username
-- Display user profile information
-- View public repositories
-- Loading and error state handling
-- Clean and scalable project architecture
+- Built a React + TypeScript application for searching GitHub users using the GitHub REST API
+- Implemented data fetching and caching using Redux Toolkit Query (RTK Query)
+- Structured the project using Feature-Sliced Design to create scalable architecture
 
 ##
 
