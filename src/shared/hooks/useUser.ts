@@ -23,9 +23,7 @@ export const useUser = () => {
     return "Something went wrong"
   }
 
-
   const loading = userLoading || reposLoading
-  const error = userError ? getErrorMessage(userError) : null
 
   const searchUser = (value: string) => {
     setUsername(value)
